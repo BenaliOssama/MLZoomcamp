@@ -5,7 +5,7 @@ WORKDIR /app
 # Copy project files and the model
 COPY requirements.txt .
 COPY app.py .
-COPY pipeline_v1.bin .
+COPY pipeline_v2.bin .
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
